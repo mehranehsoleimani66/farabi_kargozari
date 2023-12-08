@@ -12,8 +12,8 @@ const Nav = () => {
 
   return (
     <div
-      className=" flex items-center fixed z-[1000] w-full
-justify-between  uppercase h-20  bg-white px-40 py-5"
+      className=" flex items-center  z-[1000] w-full
+justify-between  uppercase h-20  bg-white px-40 py-5 sticky top-0 p-5 "
     >
       <div className="flex text-white gap-3 ">
         <button className="border bg-green-700 text-sm px-5 rounded-md py-4  font-bold">
