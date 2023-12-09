@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner4 = () => {
   return (
-    <div className="relative flex-1 w-full h-[calc(100vh-9rem)] ">
+    <div className="relative flex-1 w-full h-[500px] ">
       <Image
         src="https://irfarabi.com/background.bb605fa6a82e10425188.png"
         fill
