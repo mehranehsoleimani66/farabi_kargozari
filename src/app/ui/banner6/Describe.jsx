@@ -38,7 +38,7 @@ const Describe = () => {
   ];
   return (
     <div className="w-full flex flex-col justify-around items-center gap-5 h-[600px] bg-gradient-to-t from-gray-200 p ">
-      <p className="  text-[#046138] text-5xl font-black mt-40">
+      <p className=" font-bIranZamin text-[color:var(--text)] text-5xl font-black mt-40">
         فارابی در یک نگاه
       </p>
 
@@ -53,8 +53,11 @@ const Describe = () => {
             </div>
 
             <div className="flex flex-col gap-3 py-4 justify-start text-center items-center">
-              <h2 className="font-bold"> {item.title}</h2>
-              <span className="text-gray-400"> {item.desc}</span>
+              <h2 className="font-bold font-bIranZamin"> {item.title}</h2>
+              <span className="text-gray-400 font-bIranZamin">
+                {" "}
+                {item.desc}
+              </span>
             </div>
           </div>
         ))}

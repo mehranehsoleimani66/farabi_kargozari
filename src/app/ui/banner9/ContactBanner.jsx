@@ -11,8 +11,12 @@ const ContactBanner = () => {
           className="object-contain"
         />
         <div className="absolute flex flex-col justify-start items-start gap-2 ">
-          <span className="text-3xl text-[#066137] font-black">1561</span>
-          <span className="font-normal ">Support@irfarabi.com</span>
+          <span className="text-3xl font-bIranZamin text-[color:var(--text)] font-black">
+            1561
+          </span>
+          <span className="font-normal font-bIranZamin">
+            Support@irfarabi.com
+          </span>
         </div>
       </div>
       <div className="w-1/2 flex justify-center items-start">

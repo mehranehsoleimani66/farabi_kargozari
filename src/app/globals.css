@@ -1,9 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --bg: #066137;
+  --text: #066137;
+  --bgSoft: #187c48;
+  --textSoft: #b2c7be;
+}
+
 @layer base {
   @font-face {
     font-family: Byekan;
-    src: url("/fonts/iranyekanwebregular.woff2");
+    src: url("/font/IRANSansWeb(FaNum)_Black.aca84f753ff041f9bbd6.woff2");
   }
 }

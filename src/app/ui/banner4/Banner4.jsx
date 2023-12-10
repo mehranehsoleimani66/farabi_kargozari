@@ -20,14 +20,18 @@ const Banner4 = () => {
         </div>
         <div className="flex flex-col w-1/2  absolute right-1 top-1 py-32 px-32 gap-10 text-right items-end">
           <h1 className="text-5xl text-white font-bold">
-            <span className="text-5xl text-[#d2b870] font-bold"> شریک </span>
-            فارابی شوید
+            <span className="text-5xl text-[#d2b870] font-bold font-bIranZamin">
+              شریک{" "}
+            </span>
+            <span className="text-5xl text-white font-bold font-bIranZamin">
+              فارابی شوید
+            </span>
           </h1>
-          <p className="text-3xl text-white">
+          <p className="text-3xl text-white font-bIranZamin">
             {" "}
             در فارابیز، ۱۵ درصد از درآمد فارابی سهم شماست!{" "}
           </p>
-          <button className="border border-gray-400 bg-[#d2b870] px-1 py-2 w-40 rounded-md ">
+          <button className="border font-bIranZamin border-gray-400 bg-[#d2b870] px-1 py-2 w-40 rounded-md ">
             شروع کنید
           </button>
         </div>

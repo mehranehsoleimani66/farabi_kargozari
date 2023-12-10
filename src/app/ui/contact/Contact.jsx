@@ -10,13 +10,13 @@ const Contact = () => {
       </Link>
       <Link
         href=""
-        className="flex items-center list-none hover:shadow-sm hover:shadow-gray-300 h-full pr-2 pl-2"
+        className="flex font-bIranZamin items-center list-none hover:shadow-sm hover:shadow-gray-300 h-full pr-2 pl-2"
       >
         آموزین
       </Link>
       <Link
         href=""
-        className="flex items-center text-green-600  list-none h-full  pr-2"
+        className="flex font-bIranZamin items-center text-green-600  list-none h-full  pr-2"
       >
         کارگزاری مفید
       </Link>

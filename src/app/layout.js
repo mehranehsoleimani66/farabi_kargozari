@@ -2,6 +2,8 @@ import "./globals.css";
 import Footer from "./ui/footer/Footer";
 import Contact from "./ui/contact/Contact";
 import Nav from "./ui/navbar/Nav";
+import Circle from "./ui/modal/Circle";
+import Modal from "./ui/modal/Modal";
 
 // const inter = Inter({ subsets: ["persian"] });
 
@@ -13,14 +15,21 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="fa">
+      {/* ASO Animation */}
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       <div className="min-h-full">
         <div className="">
           <Contact />
           <Nav />
           {children}
+          <Circle />
+          <Modal />
           <Footer />
         </div>
       </div>
+      {/* AOS Script */}
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+      <script>AOS.init();</script>
     </html>
   );
 }

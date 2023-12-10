@@ -4,7 +4,9 @@ const BusinessPartner = () => {
   return (
     <div className="w-full flex flex-row-reverse justify-between items-center   py-28 px-36">
       <div>
-        <p className="text-[#046138] text-5xl font-black">شرکای تجاری ما</p>
+        <p className="text-[color:var(--text)] text-5xl font-bIranZamin font-black">
+          شرکای تجاری ما
+        </p>
       </div>
       <div className=" flex justify-between gap-5 items-center">
         <Image
