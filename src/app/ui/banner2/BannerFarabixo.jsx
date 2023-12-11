@@ -3,9 +3,9 @@ import Link from "next/link";
 import { LeftOutlined } from "@ant-design/icons";
 const BannerFarabixo = () => {
   return (
-    <div className="relative flex-1 w-full h-[600px] ">
-      <div className="w-full  bg-gradient-to-t  from-transparent via-[#066137] to-[#066137]">
-        <div className="flex w-full h-full gap-10 bg-branch bg-fixed bg-no-repeat  justify-around items-start py-16   bg-center bg-cover">
+    <div className="flex  flex-1 w-full h-[700px]  ">
+      <div className="w-full   bg-branch  bg-fixed bg-no-repeat  bg-cover ">
+        <div className="flex w-full h-full gap-10  bg-gradient-to-t  from-transparent to-[#066137] bg-opacity-20   justify-around items-start py-20   bg-center bg-cover">
           <div className="flex  justify-center items-center gap-5 ">
             <div className="flex items-center gap-1">
               <p className="text-xl text-white font-bIranZamin">
