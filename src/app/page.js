@@ -6,7 +6,7 @@ import CarBanner from "./ui/banner5/CarBanner";
 import BusinessPartner from "./ui/banner7/BusinessPartner";
 import LastNews from "./ui/banner8/LastNews";
 import BannerFarabixo from "./ui/banner2/BannerFarabixo";
-import ContactBanner from "./ui/banner9/contactBanner";
+import ContactBanner from "./ui/banner9/ContactBanner";
 
 export default function Home() {
   return (
