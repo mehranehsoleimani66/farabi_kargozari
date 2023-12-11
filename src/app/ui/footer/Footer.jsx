@@ -3,8 +3,8 @@ import Link from "next/link";
 import Section2 from "./Section2";
 const Footer = () => {
   return (
-    <div className="text-2xl h-[400px] ">
-      <div className="flex justify-center items-center w-full  bg-[#265841] px-32 py-32">
+    <div className="text-2xl h-[300px] ">
+      <div className="flex justify-center items-center w-full  bg-[#265841] px-32 py-24">
         {/* section1 */}
         <div className=" w-1/4 flex flex-col justify-start gap-5 items-end ">
           <span className="font-normal text-base leading-10 flex  justify-end items-end  text-[#b2c7be]">
