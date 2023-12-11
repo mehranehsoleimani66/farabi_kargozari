@@ -2,7 +2,7 @@ import Chart from "../chart/Chart";
 import Link from "next/link";
 const Brokerage = () => {
   return (
-    <div className=" w-full h-[400px] flex justify-between items-center px-32 py-28">
+    <div className=" w-full h-[600px] flex justify-between items-center px-32 py-28">
       <div className="flex w-1/2  justify-center">
         <Chart />
       </div>
