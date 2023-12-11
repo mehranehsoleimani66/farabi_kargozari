@@ -7,6 +7,8 @@
   --text: #066137;
   --bgSoft: #187c48;
   --textSoft: #b2c7be;
+  --textLight: #187c48;
+  --bgLight: #187c48;
 }
 
 @layer base {
@@ -14,4 +16,8 @@
     font-family: Byekan;
     src: url("/font/IRANSansWeb(FaNum)_Black.aca84f753ff041f9bbd6.woff2");
   }
+}
+.css-i4bv87-MuiSvgIcon-root:hover {
+  background: var(--bg);
+  border-radius: 50%;
 }
