@@ -18,84 +18,57 @@ const dataset = [
     paris: 57,
     newYork: 86,
     seoul: 21,
-    month: "Jan"
+    month: "سود بانکی"
   },
   {
     london: 50,
     paris: 52,
     newYork: 78,
     seoul: 28,
-    month: "Fev"
+    month: "مدیریت دارایی فارابی"
   },
-  {
-    london: 47,
-    paris: 53,
-    newYork: 106,
-    seoul: 41,
-    month: "Mar"
-  },
+
   {
     london: 54,
     paris: 56,
     newYork: 92,
     seoul: 73,
-    month: "Apr"
+    month: "شاخص بورس"
   },
   {
     london: 57,
     paris: 69,
     newYork: 92,
     seoul: 99,
-    month: "May"
+    month: "دلار"
   },
   {
     london: 60,
     paris: 63,
     newYork: 103,
     seoul: 144,
-    month: "June"
+    month: "مسکن"
   },
   {
     london: 59,
     paris: 60,
     newYork: 105,
     seoul: 319,
-    month: "July"
+    month: "شاخص بورس"
   },
   {
     london: 65,
     paris: 60,
     newYork: 106,
     seoul: 249,
-    month: "Aug"
+    month: "مدیریت دارایی فارابی"
   },
   {
     london: 51,
     paris: 51,
     newYork: 95,
     seoul: 131,
-    month: "Sept"
-  },
-  {
-    london: 60,
-    paris: 65,
-    newYork: 97,
-    seoul: 55,
-    month: "Oct"
-  },
-  {
-    london: 67,
-    paris: 64,
-    newYork: 76,
-    seoul: 48,
-    month: "Nov"
-  },
-  {
-    london: 61,
-    paris: 70,
-    newYork: 103,
-    seoul: 25,
-    month: "Dec"
+    month: "سکه"
   }
 ];
 
@@ -105,9 +78,9 @@ export default function Chart() {
   return (
     <BarChart
       dataset={dataset}
-      yAxis={[{ scaleType: "band", dataKey: "month" }]}
-      series={[{ dataKey: "seoul", label: "Seoul rainfall", valueFormatter }]}
+      yAxis={[{ scaleType: "band", dataKey: "" }]}
       layout="horizontal"
+      background={{ fill: "#187c48" }}
       {...chartSetting}
     />
   );
