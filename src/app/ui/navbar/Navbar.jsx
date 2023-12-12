@@ -26,6 +26,7 @@ justify-between items-center uppercase  px-40  h-12 sticky top-0 mt-4  bg-white 
           width={100}
           height={150}
           alt="img"
+          priority
         />
       </div>
     </div>

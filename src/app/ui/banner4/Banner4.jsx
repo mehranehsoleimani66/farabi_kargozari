@@ -16,6 +16,8 @@ const Banner4 = () => {
             src="https://irfarabi.com/coin.bf8d5963c293469596ce.png"
             width={400}
             height={400}
+            priority
+            alt=""
           />
         </div>
         <div className="flex flex-col w-1/2  absolute right-1 top-1 py-32 px-32 gap-10 text-right items-end">

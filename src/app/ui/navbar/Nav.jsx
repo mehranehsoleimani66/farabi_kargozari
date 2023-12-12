@@ -1,14 +1,14 @@
 // import Link from "next/link";
 // import Image from "next/image";
-// import Dropdown from "../dropdown/DropDown";
+
 // const Nav = () => {
 //   const links = [
 //     { id: 0, title: "مسئولیت اجتماعی", url: "/" },
 //     { id: 1, title: "بورس کالا و انرژی", url: "/" },
 //     { id: 2, title: "اخبار و تازه ها", url: "/" },
 //     { id: 3, title: "شعبه ها", url: "/" },
-//     { id: 3, title: " فارابی", url: "/" },
-//     { id: 3, title: " سرمایه گذاری", url: "/" }
+//     { id: 4, title: " فارابی", url: "/" },
+//     { id: 5, title: " سرمایه گذاری", url: "/" }
 //   ];
 
 //   return (
@@ -39,9 +39,6 @@
 //           height={150}
 //           alt="img"
 //         />
-//       </div>
-//       <div className="absolute  bottom-5 right-2 z-50">
-//         <Dropdown />
 //       </div>
 //     </div>
 //   );

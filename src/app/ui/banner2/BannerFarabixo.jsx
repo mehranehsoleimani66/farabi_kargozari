@@ -5,6 +5,12 @@ const BannerFarabixo = () => {
   return (
     <div className="flex  flex-1 w-full h-[700px]  ">
       <div className="w-full   bg-branch  bg-fixed bg-no-repeat  bg-cover ">
+        {/* <Image
+          src=""
+          alt="https://irfarabi.com/back-farabixo-3x.dff02d57966f9aa0ae66.jpg"
+          fill
+          className=""
+        /> */}
         <div className="flex w-full h-full gap-10  bg-gradient-to-t  from-transparent to-[#066137] bg-opacity-20   justify-around items-start py-20   bg-center bg-cover">
           <div className="flex  justify-center items-center gap-5 ">
             <div className="flex items-center gap-1">
@@ -16,6 +22,8 @@ const BannerFarabixo = () => {
                 src="https://irfarabi.com/assets/images/icons/ic-mobile-phone.svg"
                 width={40}
                 height={40}
+                priority
+                alt=""
               />
             </div>
             <div className="flex items-center gap-1">
@@ -27,6 +35,8 @@ const BannerFarabixo = () => {
                 src="https://irfarabi.com/assets/images/icons/ic-monitor.svg"
                 width={40}
                 height={40}
+                priority
+                alt=""
               />
             </div>
           </div>

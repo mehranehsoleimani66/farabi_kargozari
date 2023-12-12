@@ -9,6 +9,8 @@ const ContactBanner = () => {
           width={50}
           height={50}
           className="object-contain"
+          priority
+          alt=""
         />
         <div className="absolute flex flex-col justify-start items-start gap-2 ">
           <span className="text-3xl font-bIranZamin text-[color:var(--text)] font-black">
@@ -24,6 +26,8 @@ const ContactBanner = () => {
           src="https://irfarabi.com/assets/images/icons/ic-contact.svg"
           width={200}
           height={200}
+          priority
+          alt=""
         />
       </div>
     </div>

@@ -7,6 +7,8 @@ const LastNews = () => {
         src="https://irfarabi.com/back-news.f99176000b49ad14753b.png"
         fill
         className="object-cover"
+        alt=""
+        priority
       />
       <div className="flex justify-between   flex-row-reverse gap-5 items-center  px-32 py-28">
         <div className=" w-1/3  flex flex-col justify-start items-end gap-12">

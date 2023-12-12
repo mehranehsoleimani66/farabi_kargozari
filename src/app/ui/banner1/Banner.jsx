@@ -9,6 +9,7 @@ const Banner = () => {
         alt=""
         fill
         className="object-cover"
+        priority
       />
       <div className="flex gap-7 flex-col justify-center items-end absolute top-10 right-14  border-none px-52 py-52">
         <h1 className="font-bold text-3xl font-bIranZamin">

@@ -1,7 +1,6 @@
 import "./globals.css";
 import Footer from "./ui/footer/Footer";
 import Contact from "./ui/contact/Contact";
-// import Nav from "./ui/navbar/Nav";
 import LeftModal from "./ui/leftModal/LeftModal";
 import RightModal from "./ui/rightModal/RightModal";
 import Navbar from "./ui/navbar/Navbar";
@@ -21,6 +20,7 @@ export default function RootLayout({ children }) {
       <div className="min-h-full">
         <div className="">
           <Contact />
+
           <Navbar />
           <LeftModal />
           <RightModal />

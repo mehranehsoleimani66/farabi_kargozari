@@ -8,6 +8,7 @@ const CarBanner = () => {
         alt=""
         fill
         className="object-cover"
+        priority
       />
       <div className="flex gap-7 flex-col justify-center  border border-red-500 items-end absolute top-10 left-7  border-none px-24 py-40">
         <h4 className="font-extrabold font-bIranZamin text-3xl">

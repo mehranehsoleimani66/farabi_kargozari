@@ -10,7 +10,7 @@ const Section2 = () => {
       <div className="flex flex-1 justify-start item-start ">
         {socialIcons.map((item) => (
           <div
-            key={item.key}
+            key={item.id}
             className=" flex gap-5 hover:bg-[#46735f] hover:bg-opacity-50 hover:p-1
              hover:rounded-full "
           >

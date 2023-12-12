@@ -12,13 +12,12 @@ const Footer = () => {
           </span>
           <div className="flex flex-col justify-center items-end gap-5">
             {quickAccess4.map((item) => (
-              <Link
-                href="/"
+              <div
                 key={item.id}
                 className="text-[clamp(12px,1.5vw,16px)] text-[#93b2a4] tracking-normal"
               >
                 {item.title}
-              </Link>
+              </div>
             ))}
           </div>
         </div>
@@ -29,13 +28,12 @@ const Footer = () => {
           </span>
           <div className="flex flex-col justify-center items-end gap-5">
             {quickAccess3.map((item) => (
-              <Link
-                href="/"
+              <div
                 key={item.id}
                 className="text-[clamp(12px,1.5vw,16px)] text-[#93b2a4] tracking-normal"
               >
                 {item.title}
-              </Link>
+              </div>
             ))}
           </div>
         </div>
@@ -66,13 +64,12 @@ const Footer = () => {
           />
           <div className="flex flex-col justify-center items-end gap-5">
             {quickAccess1.map((item) => (
-              <Link
-                href="/"
+              <div
                 key={item.id}
                 className="text-[clamp(12px,1.5vw,16px)] text-[#93b2a4] tracking-normal"
               >
                 {item.title}
-              </Link>
+              </div>
             ))}
           </div>
         </div>
@@ -86,19 +83,19 @@ const Footer = () => {
 export default Footer;
 
 const quickAccess1 = [
-  { id: 0, title: "معرفی فارابی", href: "/" },
-  { id: 1, title: "سوالات متداول", href: "/" },
-  { id: 2, title: " شماره حساب های شرکت ", href: "/" }
+  { id: 0, title: "معرفی فارابی" },
+  { id: 1, title: "سوالات متداول" },
+  { id: 2, title: " شماره حساب های شرکت " }
 ];
 const quickAccess2 = [
-  { id: 0, title: " صندوق سهامی", href: "/" },
-  { id: 1, title: "صندوق درآمد سابق ", href: "/" }
+  { id: 0, title: " صندوق سهامی" },
+  { id: 1, title: "صندوق درآمد سابق " }
 ];
 const quickAccess3 = [
-  { id: 0, title: " صندوق سهامی", href: "/" },
-  { id: 1, title: "صندوق درآمد سابق ", href: "/" }
+  { id: 0, title: " صندوق سهامی" },
+  { id: 1, title: "صندوق درآمد سابق " }
 ];
 const quickAccess4 = [
-  { id: 0, title: " صندوق سهامی", href: "/" },
-  { id: 1, title: "صندوق درآمد سابق ", href: "/" }
+  { id: 0, title: " صندوق سهامی" },
+  { id: 1, title: "صندوق درآمد سابق " }
 ];

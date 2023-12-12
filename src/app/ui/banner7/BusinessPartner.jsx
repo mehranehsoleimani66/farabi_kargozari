@@ -13,36 +13,48 @@ const BusinessPartner = () => {
           src="https://irfarabi.com/assets/images/partners/logos/logo-pinvest.png"
           width={100}
           height={100}
+          priority
+          alt=""
         />
         <Image
           src="https://irfarabi.com/assets/images/amoozin-logo.png"
           width={100}
           height={100}
+          priority
+          alt=""
         />
         <Image
           src="https://irfarabi.com/assets/images/100-logo.png"
           width={100}
           height={100}
+          priority
+          alt=""
         />
         <Image
           src="https://irfarabi.com/assets/images/jibimo-logo.webp"
           width={100}
           height={100}
+          priority
+          alt=""
         />
         <Image
           src="https://irfarabi.com/assets/images/partners/soshyant.png"
           width={100}
           height={100}
+          priority
+          alt=""
         />
         <Image
           src="https://irfarabi.com/assets/images/bourse24-logo.png"
           width={100}
           height={100}
+          priority
         />
         <Image
           src="https://irfarabi.com/assets/images/farabi.png"
           width={100}
           height={100}
+          priority
         />
       </div>
     </div>
