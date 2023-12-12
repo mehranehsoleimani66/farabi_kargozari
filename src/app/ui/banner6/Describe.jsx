@@ -55,6 +55,7 @@ const Describe = () => {
                 height={50}
                 className=""
                 priority
+                alt=""
               />
             </div>
 

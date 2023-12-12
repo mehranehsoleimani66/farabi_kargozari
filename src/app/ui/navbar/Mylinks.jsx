@@ -132,7 +132,7 @@ export const links = [
     submenu: true,
     sublinks: [
       {
-        id: 0,
+        id: 1,
         Head: "راههای سرمایه گذاری",
         sublink: [
           { id: 0, name: "  خرید سهام", link: "/" },
@@ -144,7 +144,7 @@ export const links = [
         ]
       },
       {
-        id: 1,
+        id: 2,
         Head: "شروع سرمایه گذاری",
         sublink: [
           { id: 0, name: "  خرید سهام", link: "/" },
@@ -156,7 +156,7 @@ export const links = [
         ]
       },
       {
-        id: 2,
+        id: 3,
         Head: "ابزارهای سرمایه گذاری",
         sublink: [
           { id: 0, name: "  خرید سهام", link: "/" },

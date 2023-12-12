@@ -60,6 +60,7 @@ const Footer = () => {
             src="https://irfarabi.com/assets/images/full-logo-2x.webp"
             height={200}
             width={200}
+            alt=""
             className="object-cover"
           />
           <div className="flex flex-col justify-center items-end gap-5">
