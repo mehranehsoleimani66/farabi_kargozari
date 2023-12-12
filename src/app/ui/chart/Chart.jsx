@@ -81,7 +81,7 @@ export default function Chart() {
       yAxis={[{ scaleType: "band", dataKey: "month" }]}
       series={[{ dataKey: "seoul", label: "Seoul rainfall", valueFormatter }]}
       layout="horizontal"
-      background={{ fill: rgba(0, 0, 0, 0.05) }}
+      background={{ fill: "#187c48" }}
       cursor={{ fill: "blue" }}
       {...chartSetting}
     />
