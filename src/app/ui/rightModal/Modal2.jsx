@@ -33,8 +33,8 @@ const Modal2 = () => {
           </span>
         </Link>
       </div>
-      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-      <script>AOS.init();</script>
+      <script src="https://unpkg.com/aos@next/dist/aos.js" asynce></script>
+      <script async>AOS.init();</script>
     </div>
   );
 };

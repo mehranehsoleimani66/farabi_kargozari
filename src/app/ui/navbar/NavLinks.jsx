@@ -23,8 +23,8 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div className="">
-                <div className="absolute bg-red-700 top-20 right-0  border-t-2 border-[color:var(--bg)] hidden group-hover:md:block hover:md:block">
-                  <div className="bg-white p-5 w-[500px] grid grid-cols-3 gap-10">
+                <div className="absolute  top-20 right-0  border-t-2 border-[color:var(--bg)] hidden group-hover:md:block hover:md:block">
+                  <div className="bg-white p-5 w-[600px] grid grid-cols-3  gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div key={mysublinks.id} className="">
                         <h1 className="text-sm  text-center font-semibold ">

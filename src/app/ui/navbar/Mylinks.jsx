@@ -82,6 +82,14 @@ export const links = [
           { id: 0, name: "  شراکت با فارابی", link: "/" },
           { id: 1, name: "  تماس با ما  ", link: "/" }
         ]
+      },
+      {
+        id: 2,
+        Head: " خدمات",
+        sublink: [
+          { id: 0, name: "  شراکت با ما", link: "/" },
+          { id: 1, name: "  مشاوره با ما  ", link: "/" }
+        ]
       }
     ]
   }
