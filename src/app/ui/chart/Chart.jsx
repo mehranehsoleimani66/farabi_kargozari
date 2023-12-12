@@ -79,10 +79,8 @@ export default function Chart() {
     <BarChart
       dataset={dataset}
       yAxis={[{ scaleType: "band", dataKey: "month" }]}
-      series={[{ dataKey: "seoul", label: "Seoul rainfall", valueFormatter }]}
+      series={[{ dataKey: "seoul", label: "کارگزاری فارابی", valueFormatter }]}
       layout="horizontal"
-      background={{ fill: "#187c48" }}
-      cursor={{ fill: "blue" }}
       {...chartSetting}
     />
   );
