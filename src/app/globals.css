@@ -21,3 +21,6 @@
   background: var(--bg);
   border-radius: 50%;
 }
+.MuiBarElement-root {
+  background: var(--bgSoft);
+}
