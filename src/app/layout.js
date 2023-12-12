@@ -20,11 +20,11 @@ export default function RootLayout({ children }) {
       <div className="min-h-full">
         <div className="">
           <Contact />
-
           <Navbar />
           <LeftModal />
-          <RightModal />
+
           {children}
+          <RightModal />
           <Footer />
         </div>
       </div>
