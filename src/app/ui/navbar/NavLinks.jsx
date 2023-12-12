@@ -27,10 +27,10 @@ const NavLinks = () => {
                   <div className="bg-white p-5 w-[600px] grid grid-cols-3  gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div key={mysublinks.id} className="">
-                        <h1 className="text-sm  text-center font-semibold ">
+                        <h1 className="text-sm  text-right font-semibold ">
                           {mysublinks.Head}
                         </h1>
-                        <div className="w-70 border-gray-200 m-3 border-2"></div>
+                        <div className="w-40 border-gray-200 m-3 border-2"></div>
                         {mysublinks.sublink.map((slink) => (
                           <li
                             key={slink.id}
