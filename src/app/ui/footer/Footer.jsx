@@ -62,6 +62,7 @@ const Footer = () => {
             width={200}
             alt=""
             className="object-cover"
+            priority
           />
           <div className="flex flex-col justify-center items-end gap-5">
             {quickAccess1.map((item) => (

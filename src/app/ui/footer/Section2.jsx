@@ -11,15 +11,12 @@ const Section2 = () => {
         {socialIcons.map((item) => (
           <div
             key={item.id}
-            className=" flex gap-5 hover:bg-[#46735f] hover:bg-opacity-50 hover:p-1
+            className="relative flex gap-5 hover:bg-[#46735f] hover:bg-opacity-50 p-1
              hover:rounded-full "
           >
-            <Link
-              href={"/"}
-              className=" w-8 h-8 rounded-full box-border flex justify-center items-center cursor-pointer text-[color:var(--textSoft)]  "
-            >
+            <div className=" w-8 h-8 rounded-full box-border flex justify-center items-center cursor-pointer text-[color:var(--textSoft)]  ">
               {item.icon}
-            </Link>
+            </div>
           </div>
         ))}
       </div>
