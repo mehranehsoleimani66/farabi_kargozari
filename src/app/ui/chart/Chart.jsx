@@ -81,6 +81,7 @@ export default function Chart() {
       yAxis={[{ scaleType: "band", dataKey: "month" }]}
       series={[{ dataKey: "seoul", label: "کارگزاری فارابی", valueFormatter }]}
       layout="horizontal"
+      fill="url(#zr2322-gradient-0)"
       {...chartSetting}
     />
   );
