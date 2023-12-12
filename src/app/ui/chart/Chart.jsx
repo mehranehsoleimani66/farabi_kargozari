@@ -78,10 +78,11 @@ export default function Chart() {
   return (
     <BarChart
       dataset={dataset}
-      yAxis={[{ scaleType: "band", dataKey: "" }]}
-      series={[{ dataKey: "", label: "", valueFormatter }]}
+      yAxis={[{ scaleType: "band", dataKey: "month" }]}
+      series={[{ dataKey: "seoul", label: "Seoul rainfall", valueFormatter }]}
       layout="horizontal"
-      background={{ fill: "#187c48" }}
+      background={{ fill: rgba(0, 0, 0, 0.05) }}
+      cursor={{ fill: "blue" }}
       {...chartSetting}
     />
   );
