@@ -26,7 +26,7 @@ const NavLinks = () => {
                 <div className="absolute top-16   border-t-2 border-[color:var(--bg)]  hidden group-hover:md:block hover:md:block">
                   <div className="bg-white p-5 grid grid-cols-3 gap-10">
                     {link.sublinks.map((mysublinks) => (
-                      <div key={mysublinks.id} className="bg-red-500  px-5">
+                      <div key={mysublinks.id} className="  px-5">
                         <h1 className="text-lg font-semibold">
                           {mysublinks.Head}
                         </h1>
