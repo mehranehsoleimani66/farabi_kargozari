@@ -79,6 +79,7 @@ export default function Chart() {
     <BarChart
       dataset={dataset}
       yAxis={[{ scaleType: "band", dataKey: "" }]}
+      series={[{ valueFormatter }]}
       layout="horizontal"
       background={{ fill: "#187c48" }}
       {...chartSetting}
