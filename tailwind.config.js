@@ -12,7 +12,11 @@ module.exports = {
         // "gradient-conic":
         //   "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         branch:
-          "url('https://irfarabi.com/back-farabixo-3x.dff02d57966f9aa0ae66.jpg')"
+          "url('https://irfarabi.com/back-farabixo-3x.dff02d57966f9aa0ae66.jpg')",
+        verticalPic:
+          "url('https://irfarabi.com/m-nexo.7dfdcc2f297ba17b676a.png')",
+        horizintalPic:
+          "url('https://irfarabi.com/nexo.2f9b5f28f3f51db1a5ac.png')"
       }
     },
     fontFamily: { bIranZamin: "Byekan" }
