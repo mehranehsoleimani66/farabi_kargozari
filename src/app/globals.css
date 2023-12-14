@@ -10,6 +10,9 @@
   --textLight: #187c48;
   --bgLight: #187c48;
 }
+body {
+  margin: 0;
+}
 
 @layer base {
   @font-face {
