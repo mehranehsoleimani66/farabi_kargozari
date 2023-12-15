@@ -1,6 +1,5 @@
 "use client";
 
-import * as React from "react";
 import { BarChart } from "@mui/x-charts/BarChart";
 
 const chartSetting = {
@@ -81,7 +80,7 @@ export default function Chart() {
       yAxis={[{ scaleType: "band", dataKey: "month" }]}
       series={[{ dataKey: "seoul", label: "کارگزاری فارابی", valueFormatter }]}
       layout="horizontal"
-      fill="url(#zr2322-gradient-0)"
+      backgroundColor="#9bd082"
       {...chartSetting}
     />
   );
