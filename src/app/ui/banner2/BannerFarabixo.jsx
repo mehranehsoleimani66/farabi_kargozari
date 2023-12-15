@@ -3,7 +3,7 @@ import Link from "next/link";
 import { LeftOutlined } from "@ant-design/icons";
 const BannerFarabixo = () => {
   return (
-    <div className="lg:flex  lg:flex-1 w-full  bg-red-700 lg:h-[700px]  ">
+    <div className="lg:flex  lg:flex-1 w-full  bg-red-700 lg:h-[600px]  ">
       <div className="w-full   bg-branch  lg:bg-fixed bg-no-repeat   bg-cover ">
         {/* <Image
           src=""
@@ -12,7 +12,7 @@ const BannerFarabixo = () => {
           className=""
         /> */}
         <div className="flex-col lg:flex lg:flex-row lg:w-full  gap-10  bg-gradient-to-t  from-transparent to-[#066137] bg-opacity-20   justify-around items-start lg:py-20   lg:bg-center bg-cover">
-          <div className="absolute left-1/3  bottom-28  lg:static flex-col lg:flex  justify-center items-center gap-5 ">
+          <div className="absolute left-1/3  bottom-40 pb-5  lg:static flex-col lg:flex  justify-center items-center gap-5 ">
             <div className="flex items-center gap-1">
               <p className="lg:text-xl text-white font-bIranZamin">
                 {" "}
