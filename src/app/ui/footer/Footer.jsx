@@ -4,9 +4,9 @@ import Section2 from "./Section2";
 const Footer = () => {
   return (
     <div className="text-2xl h-[300px] ">
-      <div className="flex justify-center items-center w-full  bg-[#265841] px-32 py-24">
+      <div className="flex flex-col-reverse justify-end items-end lg:flex-row lg:justify-center lg:items-center w-full  bg-[#265841] px-10 lg:px-32 py-24">
         {/* section1 */}
-        <div className=" w-1/4 flex flex-col justify-start gap-5 items-end ">
+        <div className=" lg:w-1/4 flex flex-col lg:justify-start gap-5 lg:items-end ">
           <span className="font-normal text-base leading-10 flex  justify-end items-end  text-[#b2c7be]">
             ارتباط با فارابی
           </span>
@@ -14,7 +14,7 @@ const Footer = () => {
             {quickAccess4.map((item) => (
               <div
                 key={item.id}
-                className="text-[clamp(12px,1.5vw,16px)] text-[#93b2a4] tracking-normal"
+                className="text-[clamp(12px,1.5vw,16px)] text-[#93b2a4] text-right tracking-normal"
               >
                 {item.title}
               </div>
@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
         </div>
         {/* section2 */}
-        <div className=" w-1/4 flex flex-col justify-start gap-5 items-end ">
+        <div className=" lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
           <span className="font-normal text-base leading-10 flex  justify-end items-end  text-[#b2c7be]">
             خدمات فارابی
           </span>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
         </div>
         {/* section2 */}
-        <div className=" w-1/4 flex flex-col justify-start gap-5 items-end ">
+        <div className=" lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
           <span className="font-normal font-bIranZamin text-base leading-10 flex  justify-end items-end  text-[color:var(--textSoft)]">
             راهکارهای سرمایه گذاری
           </span>
@@ -55,7 +55,7 @@ const Footer = () => {
           </div>
         </div>
         {/* section3 */}
-        <div className=" w-1/4 flex flex-col justify-start gap-5 items-end ">
+        <div className="lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
           <Image
             src="https://irfarabi.com/assets/images/full-logo-2x.webp"
             height={200}
