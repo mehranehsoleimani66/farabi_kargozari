@@ -20,10 +20,3 @@ body {
     src: url("/font/IRANSansWeb(FaNum)_Black.aca84f753ff041f9bbd6.woff2");
   }
 }
-.css-i4bv87-MuiSvgIcon-root:hover {
-  background: var(--bg);
-  border-radius: 50%;
-}
-.MuiBarElement-root {
-  background: var(--bgSoft);
-}
