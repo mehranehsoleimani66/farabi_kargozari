@@ -3,7 +3,8 @@ import Footer from "./ui/footer/Footer";
 import Contact from "./ui/contact/Contact";
 import LeftModal from "./ui/leftModal/LeftModal";
 import RightModal from "./ui/rightModal/RightModal";
-import Navbar from "./ui/navbar/Navbar";
+import Nav from "./ui/navbar/Nav";
+// import Navbar from "./ui/navbar/Navbar";
 
 // const inter = Inter({ subsets: ["persian"] });
 
@@ -17,18 +18,14 @@ export default function RootLayout({ children }) {
     <html lang="fa">
       {/* ASO Animation */}
       <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-      <div className="min-h-full">
-        <div className="">
-          <Contact />
-          <Navbar />
-          <LeftModal />
-
-          {children}
-          <RightModal />
-          <Footer />
-        </div>
-      </div>
-      {/* AOS Script */}
+      <body className="">
+        <Contact />
+        {/* <Nav /> */}
+        <LeftModal />
+        {children}
+        <RightModal />
+        <Footer />
+      </body>
     </html>
   );
 }
