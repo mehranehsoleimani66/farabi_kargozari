@@ -20,13 +20,13 @@ const BusinessPartner = () => {
           شرکای تجاری ما
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-5 lg:flex-row justify-between  lg:gap-5 items-center">
+      <div className="flex flex-wrap gap-5 lg:flex-row justify-between  lg:gap-5  lg:items-center">
         {images.map((item) => (
           <div
             key={item.id}
-            className=" lg:flex-row justify-between gap-5 items-center "
+            className="flex flex-row justify-between gap-5 items-center "
           >
-            <Image src={item.img} width={100} height={100} priority alt="" />
+            <Image src={item.img} width={90} height={90} priority alt="" />
           </div>
         ))}
       </div>
