@@ -1,9 +1,8 @@
 import Image from "next/image";
-import RightModal from "../rightModal/RightModal";
 
 const Banner = () => {
   return (
-    <div className=" relative flex lg:flex-1 lg:w-full mt-0 h-[500px]  ">
+    <main className=" relative flex lg:flex-1 lg:w-full mt-0 h-[500px]  ">
       <Image
         src="https://irfarabi.com/assets/images/irfarabi-home-banner2x.webp"
         alt=""
@@ -23,9 +22,8 @@ const Banner = () => {
             ثبت نام غیر حضوری در بورس
           </button>
         </div>
-        {/* <RightModal /> */}
       </div>
-    </div>
+    </main>
   );
 };
 

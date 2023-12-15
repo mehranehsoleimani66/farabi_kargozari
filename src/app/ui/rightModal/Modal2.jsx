@@ -34,7 +34,7 @@ const Modal2 = () => {
         </Link>
       </div>
       <script src="https://unpkg.com/aos@next/dist/aos.js" async></script>
-      <script async>AOS.init();</script>
+      {/* <script async>AOS.init()</script> */}
     </div>
   );
 };

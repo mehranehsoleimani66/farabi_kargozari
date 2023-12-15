@@ -1,16 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
-import { LeftOutlined } from "@ant-design/icons";
+import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
+
 const BannerFarabixo = () => {
   return (
-    <div className="lg:flex  lg:flex-1 w-full  bg-red-700 lg:h-[600px]  ">
+    <main className="lg:flex  lg:flex-1 w-full  bg-red-700 lg:h-[600px]  ">
       <div className="w-full   bg-branch  lg:bg-fixed bg-no-repeat   bg-cover ">
-        {/* <Image
-          src=""
-          alt="https://irfarabi.com/back-farabixo-3x.dff02d57966f9aa0ae66.jpg"
-          fill
-          className=""
-        /> */}
         <div className="flex-col lg:flex lg:flex-row lg:w-full  gap-10  bg-gradient-to-t  from-transparent to-[#066137] bg-opacity-20   justify-around items-start lg:py-20   lg:bg-center bg-cover">
           <div className="absolute left-1/3  bottom-40 pb-5  lg:static flex-col lg:flex  justify-center items-center gap-5 ">
             <div className="flex items-center gap-1">
@@ -50,13 +44,13 @@ const BannerFarabixo = () => {
               </p>
             </div>
             <div className="flex gap-5 font-bIranZamin cursor-pointer  justify-between items-center py-3 px-3 bg-gray-50 box-border text-color[var(--text)] rounded-md border border-color[var(--text)]  ">
-              <LeftOutlined />
+              <KeyboardArrowLeftIcon />
               فارابیکسو
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

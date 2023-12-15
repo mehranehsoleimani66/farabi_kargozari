@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const ContactBanner = () => {
   return (
-    <div className="flex justify-between  items-center w-full h-[200px] py-32 lg:px-32 px-10 ">
+    <main className="flex justify-between  items-center w-full h-[200px] py-32 lg:px-32 px-10 ">
       <div className="flex w-28 lg:w-1/2 justify-center items-start relative">
         <Image
           src="https://irfarabi.com/ic-contact-gray.3cde424c26c7a4bfe7a3.svg"
@@ -30,7 +30,7 @@ const ContactBanner = () => {
           alt=""
         />
       </div>
-    </div>
+    </main>
   );
 };
 

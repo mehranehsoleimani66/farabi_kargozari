@@ -15,9 +15,12 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="fa">
+    <html lang="fa" suppressHydrationWarning={true}>
       {/* ASO Animation */}
-      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      <head>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+      </head>
+
       <body className="">
         <Contact />
         {/* <Nav /> */}

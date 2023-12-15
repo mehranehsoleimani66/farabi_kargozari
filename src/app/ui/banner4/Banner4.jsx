@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner4 = () => {
   return (
-    <div className=" relative border  flex-1 w-full h-[1000px] lg:h-[500px] ">
+    <main className=" relative border  flex-1 w-full h-[1000px] lg:h-[500px] ">
       <Image
         src="https://irfarabi.com/background.bb605fa6a82e10425188.png"
         fill
@@ -21,14 +21,14 @@ const Banner4 = () => {
           />
         </div>
         <div className="flex flex-col justify-center items-center w-full lg:w-1/2  absolute right-1 top-1 py-32 lg:px-32 gap-10 text-right lg:items-end">
-          <h1 className="flex flex-row-reverse text-center  text-white font-bold">
+          <div className="flex flex-row-reverse text-center  text-white font-bold">
             <span className=" text-3xl lg:text-5xl text-[#d2b870] font-bold font-bIranZamin">
               شریک
             </span>
             <span className="text-3xl lg:text-5xl text-white font-bold font-bIranZamin">
               فارابی شوید
             </span>
-          </h1>
+          </div>
           <p className="text-2xl pr-2 lg:text-3xl text-white font-bIranZamin">
             {" "}
             در فارابیز، ۱۵ درصد از درآمد فارابی سهم شماست!{" "}
@@ -38,7 +38,7 @@ const Banner4 = () => {
           </button>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

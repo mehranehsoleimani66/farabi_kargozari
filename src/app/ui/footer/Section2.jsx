@@ -6,7 +6,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
 const Section2 = () => {
   return (
-    <div className=" lg:w-full flex-col lg:flex-row bg-[#1b3e2e] flex justify-between items-center py-5 lg:px-32 ">
+    <main className=" lg:w-full flex-col lg:flex-row bg-[#1b3e2e] flex justify-between items-center py-5 lg:px-32 ">
       <div className="flex flex-1 justify-start item-start ">
         {socialIcons.map((item) => (
           <div
@@ -28,7 +28,7 @@ const Section2 = () => {
           © تمامی حقوق برای کارگزاری فارابی محفوظ است
         </p>
       </div>
-    </div>
+    </main>
   );
 };
 

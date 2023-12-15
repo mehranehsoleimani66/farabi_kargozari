@@ -37,7 +37,7 @@ const Describe = () => {
     }
   ];
   return (
-    <div className="w-full flex flex-col justify-around items-center gap-5 h-[1200px] lg:h-[600px] bg-gradient-to-t from-gray-200  ">
+    <main className="w-full flex flex-col justify-around items-center gap-5 h-[1200px] lg:h-[600px] bg-gradient-to-t from-gray-200  ">
       <p className=" font-bIranZamin text-[color:var(--text)] text-5xl font-black mt-40">
         فارابی در یک نگاه
       </p>
@@ -46,30 +46,25 @@ const Describe = () => {
         {flashCards.map((item) => (
           <div
             key={item.id}
-            className="flex flex-col rounded-br-3xl bg-gradient-to-t  from-white     w-52  h-72 justify-around items-center"
+            className="flex relative flex-col rounded-br-3xl bg-gradient-to-t  from-white     w-52  h-72 justify-around items-center"
           >
-            <div className="relative">
-              <Image
-                src={item.image}
-                width={50}
-                height={50}
-                className=""
-                priority
-                alt=""
-              />
-            </div>
+            <Image
+              src={item.image}
+              width={50}
+              height={50}
+              className=""
+              priority
+              alt=""
+            />
 
             <div className="flex flex-col gap-3 py-4 justify-start text-center items-center">
               <h2 className="font-bold font-bIranZamin"> {item.title}</h2>
-              <span className="text-gray-400 font-bIranZamin">
-                {" "}
-                {item.desc}
-              </span>
+              <span className="text-gray-400 font-bIranZamin">{item.desc}</span>
             </div>
           </div>
         ))}
       </div>
-    </div>
+    </main>
   );
 };
 

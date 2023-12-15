@@ -3,10 +3,10 @@ import Link from "next/link";
 import Section2 from "./Section2";
 const Footer = () => {
   return (
-    <div className="text-2xl h-[300px] ">
+    <main className="text-2xl h-[300px] ">
       <div className="flex flex-col-reverse justify-end items-end lg:flex-row lg:justify-center lg:items-center w-full  bg-[#265841] px-10 lg:px-32 py-24">
         {/* section1 */}
-        <div className=" lg:w-1/4 flex flex-col lg:justify-start gap-5 lg:items-end ">
+        <section className=" lg:w-1/4 flex flex-col lg:justify-start gap-5 lg:items-end ">
           <span className="font-normal text-base leading-10 flex  justify-end items-end  text-[#b2c7be]">
             ارتباط با فارابی
           </span>
@@ -20,9 +20,9 @@ const Footer = () => {
               </div>
             ))}
           </div>
-        </div>
+        </section>
         {/* section2 */}
-        <div className=" lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
+        <section className=" lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
           <span className="font-normal text-base leading-10 flex  justify-end items-end  text-[#b2c7be]">
             خدمات فارابی
           </span>
@@ -36,9 +36,9 @@ const Footer = () => {
               </div>
             ))}
           </div>
-        </div>
+        </section>
         {/* section2 */}
-        <div className=" lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
+        <section className=" lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
           <span className="font-normal font-bIranZamin text-base leading-10 flex  justify-end items-end  text-[color:var(--textSoft)]">
             راهکارهای سرمایه گذاری
           </span>
@@ -53,9 +53,9 @@ const Footer = () => {
               </Link>
             ))}
           </div>
-        </div>
+        </section>
         {/* section3 */}
-        <div className="lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
+        <section className="lg:w-1/4 flex flex-col justify-start gap-5 items-end ">
           <Image
             src="https://irfarabi.com/assets/images/full-logo-2x.webp"
             height={200}
@@ -74,11 +74,11 @@ const Footer = () => {
               </div>
             ))}
           </div>
-        </div>
+        </section>
       </div>
 
       <Section2 />
-    </div>
+    </main>
   );
 };
 

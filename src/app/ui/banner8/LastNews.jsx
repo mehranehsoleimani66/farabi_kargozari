@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 const LastNews = () => {
   return (
-    <div className="relative flex w-full min-h-[200px] bg-[color:var(--bg)]  ">
+    <main className="relative flex w-full min-h-[200px] bg-[color:var(--bg)]  ">
       <Image
         src="https://irfarabi.com/back-news.f99176000b49ad14753b.png"
         fill
@@ -38,7 +38,7 @@ const LastNews = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 

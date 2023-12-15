@@ -1,15 +1,6 @@
-import Image from "next/image";
-
 const CarBanner = () => {
   return (
-    <div className="relative w-full flex flex-col lg:flex lg:flex-row bg-verticalPic bg-cover bg-no-repeat lg:bg-horizintalPic lg:flex-1  h-[800px] lg:h-[500px] ">
-      {/* <Image
-        src="https://irfarabi.com/nexo.2f9b5f28f3f51db1a5ac.png"
-        alt=""
-        fill
-        className=""
-        priority
-      /> */}
+    <main className="relative w-full flex flex-col lg:flex lg:flex-row bg-verticalPic bg-cover bg-no-repeat lg:bg-horizintalPic lg:flex-1  h-[800px] lg:h-[500px] ">
       <div className="flex justify-center items-center gap-7 flex-col    border border-red-500 lg:items-end absolute top-10 left-7  border-none lg:px-24 lg:py-40">
         <h4 className="font-extrabold font-bIranZamin text-3xl">
           {" "}
@@ -28,7 +19,7 @@ const CarBanner = () => {
           </button>
         </div>
       </div>
-    </div>
+    </main>
   );
 };
 
