@@ -36,7 +36,7 @@ const Navbar = () => {
       {/* mobile size */}
 
       <div
-        className="flex md:hidden  fixed top-14 right-0 justify-center items-center h-12 "
+        className="flex md:hidden  sticky top-0 right-0 justify-center items-center h-12 "
         onClick={() => setOpen(!open)}
       >
         <Image
