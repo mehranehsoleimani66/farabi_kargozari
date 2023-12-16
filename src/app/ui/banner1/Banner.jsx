@@ -2,7 +2,7 @@ import Image from "next/image";
 
 const Banner = () => {
   return (
-    <main className=" relative flex md:flex-1 md:w-full mt-0 h-[600px]  ">
+    <main className=" relative flex md:flex-1 md:w-full mt-0 h-[500px]  ">
       <Image
         src="https://irfarabi.com/assets/images/irfarabi-home-banner2x.webp"
         alt=""
@@ -10,7 +10,7 @@ const Banner = () => {
         className="md:object-cover "
         priority
       />
-      <div className="flex md:gap-7 flex-col justify-between gap-96 md:justify-center items-end absolute top-10 right-14  border-none md:px-52 md:py-52">
+      <div className="flex md:gap-20 flex-col  justify-between pl-5 gap-[365px] md:justify-center items-end absolute top-10 right-14  border-none md:px-52 md:py-28">
         <h1 className="font-bold text-3xl font-bIranZamin">
           رویا , تغییر , سرمایه گذاری
         </h1>
