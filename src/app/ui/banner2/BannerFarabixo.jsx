@@ -3,11 +3,11 @@ import KeyboardArrowLeftIcon from "@mui/icons-material/KeyboardArrowLeft";
 
 const BannerFarabixo = () => {
   return (
-    <main className="lg:flex  lg:flex-1 w-full bg-no-repeat  bg-branch  bg-cover bg-red-700 h-[600px]  ">
-      <div className="flex-col lg:flex lg:flex-row lg:w-full  lg:gap-10  bg-gradient-to-t  from-transparent to-[#066137] bg-opacity-20   justify-around items-start lg:py-20   ">
-        <div className="absolute left-1/3  bottom-10 pb-5  lg:static flex-col lg:flex  justify-center items-center gap-5 ">
+    <main className="lg:flex  md:flex-1 w-full bg-no-repeat  bg-branch  bg-cover bg-red-700 h-[600px]  ">
+      <div className="flex-col md:flex md:flex-row md:w-full  md:gap-10  bg-gradient-to-t  from-transparent to-[#066137] bg-opacity-20   justify-around items-start md:py-20   ">
+        <div className="absolute left-1/3  md:bottom-10 md:pb-5 pt-40 md:static flex-col md:flex  justify-center items-center gap-5 ">
           <div className="flex items-center gap-1">
-            <p className="lg:text-xl text-white font-bIranZamin">
+            <p className="md:text-xl text-white font-bIranZamin">
               {" "}
               فارابیکسو نکست{" "}
             </p>
@@ -20,7 +20,7 @@ const BannerFarabixo = () => {
             />
           </div>
           <div className="flex items-center gap-1">
-            <p className="lg:text-xl text-white font-bIranZamin">
+            <p className="md:text-xl text-white font-bIranZamin">
               {" "}
               فارابیسکو هلیوم
             </p>
@@ -33,12 +33,12 @@ const BannerFarabixo = () => {
             />
           </div>
         </div>
-        <div className="flex flex-col text-center pt-10 lg:text-end gap-60 justify-between items-center lg:items-end">
+        <div className="flex flex-col text-center pt-10 md:text-end gap-60 justify-between items-center md:items-end">
           <div className="flex flex-col gap-2">
-            <h1 className="font-black lg:text-3xl text-xl font-bIranZamin tracking-wide text-white">
+            <h1 className="font-black md:text-3xl text-xl font-bIranZamin tracking-wide text-white">
               سایت معاملاتی فارابیسکو
             </h1>
-            <p className="font-medium font-bIranZamin lg:text-lg  text-white">
+            <p className="font-medium font-bIranZamin md:text-lg  text-white">
               تجربه معاملات سریع و آسان
             </p>
           </div>
