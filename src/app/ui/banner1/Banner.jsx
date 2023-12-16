@@ -10,7 +10,7 @@ const Banner = () => {
         className="md:object-cover "
         priority
       />
-      <div className="flex md:gap-20 flex-col  justify-between pl-5 gap-[365px] md:justify-center items-end absolute top-10 right-14  border-none md:px-52 md:py-28">
+      <div className="flex md:gap-20 flex-col  justify-between pl-5 gap-[350px] md:justify-center items-end absolute top-10 right-14  border-none md:px-52 md:py-28">
         <h1 className="font-bold text-3xl font-bIranZamin">
           رویا , تغییر , سرمایه گذاری
         </h1>
