@@ -1,6 +1,6 @@
 import "./globals.css";
 import Footer from "./ui/footer/Footer";
-import Contact from "./ui/contact/Contact";
+import SUperHeader from "./ui/Header/SUperHeader";
 import LeftModal from "./ui/leftModal/LeftModal";
 import RightModal from "./ui/rightModal/RightModal";
 import Nav from "./ui/navbar/Nav";
@@ -22,8 +22,8 @@ export default function RootLayout({ children }) {
       </head>
 
       <body className="">
-        <Contact />
-        {/* <Nav /> */}
+        <SUperHeader />
+        <Nav />
         <LeftModal />
         {children}
         <RightModal />

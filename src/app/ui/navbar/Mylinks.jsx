@@ -10,63 +10,63 @@ export const links = [
     submenu: false
   },
   {
-    id: 3,
+    id: 2,
     name: "  شعبه ها ",
     submenu: false
   },
   {
-    id: 4,
+    id: 3,
     name: "  اخبار و تازه ها ",
     submenu: false
   },
   {
-    id: 5,
+    id: 4,
     name: " سرمایه گذاری",
     submenu: true,
     sublinks: [
       {
-        id: 0,
+        id: "a",
         Head: "راهکارهای سرمایه گذاری   ",
         sublink: [
           { id: 0, name: "   خرید سهام ", link: "/" },
           { id: 1, name: " صندوق سهامی  ", link: "/" },
           { id: 2, name: " صندوق درآمد ثابت ", link: "/" },
           { id: 3, name: " صندوق سهامی سلام", link: "/" },
-          { id: 2, name: " صندوق درآمد ثابت لبخند", link: "/" },
-          { id: 3, name: "  سهام عدالت ", link: "/" }
+          { id: 4, name: " صندوق درآمد ثابت لبخند", link: "/" },
+          { id: 5, name: "  سهام عدالت ", link: "/" }
         ]
       },
       {
-        id: 1,
+        id: "b",
         Head: " شروع سرمایه گذاری",
         sublink: [
           { id: 0, name: "  کد بورس و سجام ", link: "/" },
           { id: 1, name: " خدمات متمایز فارابی ", link: "/" },
           { id: 2, name: "انتخاب سرمایه گذاری  ", link: "/" },
-          { id: 2, name: "  مشاوره مالی  ", link: "/" }
+          { id: 3, name: "  مشاوره مالی  ", link: "/" }
         ]
       },
       {
-        id: 2,
+        id: "c",
         Head: "ابزارهای سرمایه گذاری",
         sublink: [
           { id: 0, name: "  فارابیکسو نکست", link: "/" },
           { id: 1, name: "  فارابیکسو ", link: "/" },
-          { id: 1, name: "  آموزین ", link: "/" },
-          { id: 1, name: "  مدیریت دارایی ", link: "/" },
-          { id: 1, name: "  باهم ", link: "/" },
-          { id: 1, name: "  نکسو ", link: "/" }
+          { id: 2, name: "  آموزین ", link: "/" },
+          { id: 3, name: "  مدیریت دارایی ", link: "/" },
+          { id: 4, name: "  باهم ", link: "/" },
+          { id: 5, name: "  نکسو ", link: "/" }
         ]
       }
     ]
   },
   {
-    id: 6,
+    id: 5,
     name: " فارابی  ",
     submenu: true,
     sublinks: [
       {
-        id: 0,
+        id: "a",
         Head: "  درباره ما  ",
         sublink: [
           { id: 0, name: "   معرفی فارابی", link: "/" },
@@ -76,7 +76,7 @@ export const links = [
         ]
       },
       {
-        id: 1,
+        id: "b",
         Head: " ارتباط",
         sublink: [
           { id: 0, name: "  شراکت با فارابی", link: "/" },
@@ -84,7 +84,7 @@ export const links = [
         ]
       },
       {
-        id: 2,
+        id: "c",
         Head: " خدمات",
         sublink: [
           { id: 0, name: "  شراکت با ما", link: "/" },

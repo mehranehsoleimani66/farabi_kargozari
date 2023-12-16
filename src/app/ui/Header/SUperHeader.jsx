@@ -1,5 +1,5 @@
 import Link from "next/link";
-const Contact = () => {
+const SUperHeader = () => {
   return (
     <main className="h-12 w-full  text-black gap-5 lg:px-4 flex justify-end  text-enter items-center text-base cursor-pointer">
       <Link
@@ -24,4 +24,4 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export default SUperHeader;
