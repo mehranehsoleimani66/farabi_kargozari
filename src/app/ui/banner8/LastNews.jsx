@@ -10,12 +10,12 @@ const LastNews = () => {
         alt=""
         priority
       />
-      <div className="flex-col lg:w-full flex  justify-center  lg:justify-between lg:flex-row-reverse  items-center px-2 lg:px-32 py-28">
-        <div className="lg:w-1/2  flex flex-col justify-center items-center  gap-12">
+      <div className="flex-col md:w-full flex  justify-center  md:justify-between md:flex-row-reverse  items-center px-2 md:px-32 py-28">
+        <div className="md:w-1/2  flex flex-col justify-center items-center  gap-12">
           <h1 className="text-3xl font-bold text-white font-bIranZamin text-right">
             !اطلاعیه و اخبار فارابی
           </h1>
-          <span className="text-white text-lg lg:text-2xl  lg:text-right  font-bIranZamin ">
+          <span className="text-white text-lg md:text-2xl  md:text-right  font-bIranZamin ">
             گزارش امروز بورس
           </span>
           <Link
@@ -25,9 +25,9 @@ const LastNews = () => {
             ادامه خبر
           </Link>
         </div>
-        <div className="lg:w-1/2  flex flex-col justify-center items-center gap-20">
-          <h1 className="text-3xl font-bold text-white font-bIranZamin lg:text-right"></h1>
-          <span className="text-white text-2xl lg:text-right font-bIranZamin ">
+        <div className="md:w-1/2  flex flex-col justify-center items-center gap-20">
+          <h1 className="text-3xl font-bold text-white font-bIranZamin md:text-right"></h1>
+          <span className="text-white text-2xl md:text-right font-bIranZamin ">
             آغاز معاملات شبانه‌روزی در کارگزاری فارابی
           </span>
           <Link

@@ -14,13 +14,13 @@ const BusinessPartner = () => {
     { id: 6, img: "https://irfarabi.com/assets/images/amoozin-logo.png" }
   ];
   return (
-    <main className="flex-col gap-7 lg:w-full flex lg:flex-row-reverse justify-between items-center px-5  py-28 lg:px-36">
+    <main className="flex-col gap-7 md:w-full flex md:flex-row-reverse justify-between items-center px-5  py-28 md:px-36">
       <div>
         <p className="text-[color:var(--text)] text-5xl font-bIranZamin font-black">
           شرکای تجاری ما
         </p>
       </div>
-      <div className="flex flex-wrap gap-5 lg:flex-row justify-between  lg:gap-5  lg:items-center">
+      <div className="flex flex-wrap gap-5 md:flex-row justify-between  md:gap-5  md:items-center">
         {images.map((item) => (
           <div
             key={item.id}

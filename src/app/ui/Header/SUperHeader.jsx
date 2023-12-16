@@ -1,7 +1,7 @@
 import Link from "next/link";
 const SUperHeader = () => {
   return (
-    <main className="h-12 w-full  text-black gap-5 lg:px-4 flex justify-end  text-enter items-center text-base cursor-pointer">
+    <main className="h-12 w-full  text-black gap-5 md:px-4 flex justify-end  text-enter items-center text-base cursor-pointer">
       <Link
         href="/"
         className="flex items-center  list-none hover:shadow-sm hover:shadow-gray-300 pr-2 pl-2 h-full"

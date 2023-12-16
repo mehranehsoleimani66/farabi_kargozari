@@ -11,7 +11,7 @@ const NavLinks = () => {
     <>
       {links.map((link) => (
         <div key={link.id}>
-          <div className="relative px-3 text-left lg:cursor-pointer group">
+          <div className="relative px-3 text-left md:cursor-pointer group">
             <h1
               className="py-7 flex hover:text-[color:var(--text)] justify-between items-center md:pr-0  group"
               onClick={() => {
@@ -23,7 +23,7 @@ const NavLinks = () => {
             </h1>
             {link.submenu && (
               <div className="">
-                <div className="absolute  top-20 right-0  border-t-2 border-[color:var(--bg)] hidden group-hover:lg:block hover:lg:block">
+                <div className="absolute  top-20 right-0  border-t-2 border-[color:var(--bg)] hidden group-hover:md:block hover:md:block">
                   <div className="bg-white p-5 w-[600px] grid grid-cols-3  gap-10">
                     {link.sublinks.map((mysublinks) => (
                       <div key={mysublinks.id} className="">

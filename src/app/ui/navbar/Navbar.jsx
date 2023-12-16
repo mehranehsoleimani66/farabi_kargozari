@@ -10,10 +10,10 @@ const Navbar = () => {
   const [open, setOpen] = useState("");
   return (
     <nav
-      className=" flex z-50 lg:w-full
-      justify-between items-center uppercase  lg:px-40  h-12 sticky top-0 mt-4  bg-white "
+      className=" flex z-50 md:w-full
+      justify-between items-center uppercase  md:px-40  h-12 sticky top-0 mt-4  bg-white "
     >
-      <div className="flex text-white gap-3 justify-center w-1/2 lg:w-1/3   items-end ">
+      <div className="flex text-white gap-3 justify-center w-1/2 md:w-1/3   items-end ">
         <button className="border bg-green-700 text-sm px-2 py-3 md:px-5 rounded-md md:py-3  font-bold">
           ورود به فارابی زون
         </button>
@@ -21,23 +21,22 @@ const Navbar = () => {
           فارابیکسو
         </button>
       </div>
-      <div className="hidden lg:flex justify-end items-center gap-7 lg:gap-2 w-2/3 ">
+      <div className="hidden md:flex justify-end items-center gap-7 md:gap-2 w-2/3 ">
         <NavLinks />
+
+        <Image
+          src="https://irfarabi.com/assets/images/farabi-full-logo.svg"
+          width={100}
+          height={150}
+          alt="img"
+          priority
+          className="hidden md:flex"
+        />
       </div>
-
-      <Image
-        src="https://irfarabi.com/assets/images/farabi-full-logo.svg"
-        width={100}
-        height={150}
-        alt="img"
-        priority
-        className="hidden lg:flex"
-      />
-
       {/* mobile size */}
 
       <div
-        className="flex lg:hidden  fixed top-14 right-0 justify-center items-center h-12 "
+        className="flex md:hidden  fixed top-14 right-0 justify-center items-center h-12 "
         onClick={() => setOpen(!open)}
       >
         <Image
@@ -52,8 +51,8 @@ const Navbar = () => {
             <div className="flex flex-col  md:hidden absolute top-0 right-1 w-screen  h-screen justify-start items-center bg-white z-50 ">
               <Image
                 src="https://irfarabi.com/assets/images/farabi-full-logo.svg"
-                width={50}
-                height={50}
+                width={70}
+                height={70}
                 alt="img"
                 priority
                 className=""
