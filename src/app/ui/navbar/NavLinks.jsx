@@ -1,8 +1,8 @@
 "use client";
 
-import React, { useState } from "react";
 import Link from "next/link";
 import { links } from "./Mylinks";
+import React, { useState } from "react";
 
 const NavLinks = () => {
   const [heading, setHeading] = useState("");

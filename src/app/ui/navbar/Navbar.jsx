@@ -1,10 +1,10 @@
 "use client";
 
 import Image from "next/image";
-import NavLinks from "./NavLinks";
 import { useState } from "react";
-import DehazeIcon from "@mui/icons-material/Dehaze";
+import NavLinks from "./NavLinks";
 import ClearIcon from "@mui/icons-material/Clear";
+import DehazeIcon from "@mui/icons-material/Dehaze";
 
 const Navbar = () => {
   const [open, setOpen] = useState("");

@@ -1,6 +1,7 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
 import Section2 from "./Section2";
+
 const Footer = () => {
   return (
     <main className="text-2xl h-[300px] ">

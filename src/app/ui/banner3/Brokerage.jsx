@@ -1,5 +1,6 @@
-import Chart from "../chart/Chart";
 import Link from "next/link";
+import Chart from "../chart/Chart";
+
 const Brokerage = () => {
   return (
     <main className="flex flex-col-reverse w-full h-[600px] md:h-[600px] md:flex md:flex-row justify-between items-center md:px-32 md:py-28">

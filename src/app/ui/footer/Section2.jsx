@@ -1,9 +1,9 @@
-import Link from "next/link";
-import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
 import TelegramIcon from "@mui/icons-material/Telegram";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import FacebookIcon from "@mui/icons-material/Facebook";
+import InstagramIcon from "@mui/icons-material/Instagram";
+
 const Section2 = () => {
   return (
     <main className=" md:w-full flex-col md:flex-row bg-[#1b3e2e] flex justify-between items-center py-5 md:px-32 ">

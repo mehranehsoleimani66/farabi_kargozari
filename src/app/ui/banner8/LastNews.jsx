@@ -1,5 +1,6 @@
-import Image from "next/image";
 import Link from "next/link";
+import Image from "next/image";
+
 const LastNews = () => {
   return (
     <main className="relative flex w-full min-h-[200px] bg-[color:var(--bg)]  ">
