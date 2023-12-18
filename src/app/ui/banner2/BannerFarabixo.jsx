@@ -43,7 +43,7 @@ const BannerFarabixo = () => {
                 تجربه معاملات سریع و آسان
               </p>
             </div>
-            <div className="flex gap-5 font-bIranZamin cursor-pointer  justify-between items-center py-3 px-3 bg-gray-50 box-border text-color[var(--text)] rounded-md border border-color[var(--text)]  ">
+            <div className="flex gap-5 font-bIranZamin cursor-pointer mb-5 justify-between items-center py-3 px-3 bg-gray-50 box-border text-color[var(--text)] rounded-md border border-color[var(--text)]  ">
               <KeyboardArrowLeftIcon />
               فارابیکسو
             </div>
