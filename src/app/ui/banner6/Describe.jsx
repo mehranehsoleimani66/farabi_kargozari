@@ -38,12 +38,12 @@ const Describe = () => {
     }
   ];
   return (
-    <main className="w-full flex flex-col justify-around items-start gap-5  md:h-[600px] bg-gradient-to-t from-gray-200 py-5 ">
+    <main className="w-full flex flex-col justify-around items-center gap-5  md:h-[600px] bg-gradient-to-t from-gray-200  ">
       <p className=" font-bIranZamin text-[color:var(--text)] text-5xl font-black mt-20">
         فارابی در یک نگاه
       </p>
 
-      <div className="w-full  flex flex-wrap  items-center text-center justify-center gap-3 md:px-32 md:py-28">
+      <div className="w-full  flex flex-wrap  items-center text-center mb-5 justify-center gap-3 md:px-32 md:py-28">
         {flashCards.map((item) => (
           <div
             key={item.id}
