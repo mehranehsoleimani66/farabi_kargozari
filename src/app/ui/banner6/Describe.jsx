@@ -38,7 +38,7 @@ const Describe = () => {
     }
   ];
   return (
-    <main className="w-full flex flex-col justify-around items-center gap-5  md:h-[600px] bg-gradient-to-t from-gray-200  ">
+    <main className="w-full flex flex-col justify-around items-start gap-5  md:h-[600px] bg-gradient-to-t from-gray-200 py-5 ">
       <p className=" font-bIranZamin text-[color:var(--text)] text-5xl font-black mt-20">
         فارابی در یک نگاه
       </p>
