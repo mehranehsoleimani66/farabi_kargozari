@@ -18,10 +18,11 @@ const Banner4 = () => {
             height={400}
             priority
             alt=""
+            className=""
           />
         </div>
-        <div className="flex flex-col justify-center items-center w-full md:w-1/2  absolute right-1 top-1 py-32 md:px-32 gap-10 text-right md:items-end">
-          <div className="flex flex-row-reverse text-center  text-white font-bold">
+        <div className="flex flex-col justify-center items-center w-full md:w-1/2 m-5 absolute right-1 top-1 py-32 md:px-32 gap-10 text-right md:items-end">
+          <div className="flex flex-row-reverse text-center   text-white font-bold">
             <span className=" text-3xl md:text-5xl text-[#d2b870] font-bold font-bIranZamin">
               شریک
             </span>
@@ -29,9 +30,8 @@ const Banner4 = () => {
               فارابی شوید
             </span>
           </div>
-          <p className="text-2xl pr-2 md:text-3xl text-white font-bIranZamin">
-            {" "}
-            در فارابیز، ۱۵ درصد از درآمد فارابی سهم شماست!{" "}
+          <p className="text-2xl p-2 md:text-3xl text-white font-bIranZamin">
+            در فارابیز، ۱۵ درصد از درآمد فارابی سهم شماست
           </p>
           <button className="border font-bIranZamin border-gray-400 bg-[#d2b870] px-1 py-2 w-40 rounded-md ">
             شروع کنید
