@@ -4,8 +4,8 @@ import Section2 from "./Section2";
 
 const Footer = () => {
   return (
-    <main className="text-2xl h-[300px] ">
-      <div className="flex flex-col-reverse justify-end items-end md:flex-row md:justify-center md:items-center w-full  bg-[#265841] px-10 md:px-32 py-24">
+    <main className="text-2xl md:h-[500px] w-full bg-[#265841]">
+      <div className="flex flex-col-reverse justify-end items-end md:flex-row m-auto md:justify-center md:items-center w-3/4   px-10 md:px-32 py-24">
         {/* section1 */}
         <section className=" md:w-1/4 flex flex-col md:justify-start gap-5 md:items-end ">
           <span className="font-normal text-base leading-10 flex  justify-end items-end  text-[#b2c7be]">
@@ -77,7 +77,6 @@ const Footer = () => {
           </div>
         </section>
       </div>
-
       <Section2 />
     </main>
   );
